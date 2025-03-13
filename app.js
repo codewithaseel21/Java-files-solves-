@@ -182,19 +182,19 @@
 
 // --------------Answer 03-----------------
 
-// var num; 
+// var num;
 // document.write("Value after variable declaration is: " + num + "<br>");
 
-// num = 5; 
+// num = 5;
 // document.write("Initial value: " + num + "<br>");
 
-// num++; 
+// num++;
 // document.write("Value after increment is: " + num + "<br>");
 
-// num += 7; 
+// num += 7;
 // document.write("Value after addition is: " + num + "<br>");
 
-// num--; 
+// num--;
 // document.write("Value after decrement is: " + num + "<br>");
 // document.write("The remainder is: " + (num % 3));
 
@@ -456,7 +456,7 @@
 
 // --------------Answer 16-----------------
 
-// var value = 42; 
+// var value = 42;
 // alert("Type of variable is: " + typeof value);
 
 // --------------Answer 17----------------
@@ -470,7 +470,7 @@
 
 // --------------Answer 18-----------------
 
-// alert(10 !== 8); 
+// alert(10 !== 8);
 
 // --------------Answer 19-----------------
 
