@@ -1,263 +1,278 @@
 
 
-// Question ------------------------ 01 Started
 
-// var num1 = 70;
-// if (num1 % 3 === 0 ) {
-//     console.log ("Number is divisible")
 
-// } else {
-//     console.log ("Number is not divisible")
-// }
 
+// ---------------------------Chapter 01-------------------------------
 
-// ------------------------------------------------
 
-// Question - 02 Started
-// var num2 = 46;
 
-// if ( num2 % 2 === 0) {
-//     console.log ("Number is even")
+// --------------Answer 01-----------------
 
-// } else {
-//     console.log ("Number is odd")
-// }
-// Question - 02 ended
+// alert("Welcome to JS Files solve");
 
-// --------------------------------------------------------------
+// --------------Answer 02-----------------
 
-// Question - 03 Started
-// var age = 17.5;
+// document.write("Hello! This is a message displayed on the webpage.");
 
-// if ( age > 18) {
-//     console.log ("Old enough");
+// --------------Answer 03-----------------
 
-// }else {
-//     console.log ("Too Young")
+// document.write("Welcome to my site! <br> Enjoy your visit.");
 
-// }
-// Question - 03 ended
+// --------------Answer 04-----------------
 
-// ----------------------------------------------------------------
+// alert("Welcome!");
+// alert("How are you?");
+// alert("what kind of information i provide you");
 
-// Question - 04 Started
-// var Name = prompt("What is your name")
+// --------------Answer 05-----------------
 
-// if (Name == "Aseel ahmed") {
-//     console.log ("Your name is like my name")
+// console.log(" This message is shown in the browser's console.");
 
-// }
-// Question - 04 ended
+// --------------Answer 06-----------------
 
-// ---------------------------------------------------------------
+// alert("Welcome to my website!");
 
-// Question - 05 Started
+// --------------Answer 07-----------------
 
-// var num1 = 70;
+// Head ke andar = <head> ke andar JavaScript likhna
+// Body ke shuru me = <body> ke sabse pehle likhna
+// Body ke andar = Body ke content ke beech me likhna
+// Body ke baad = Sab kuch load hone ke baad likhna
 
-// if (num1 % 3 === 0) {
-//   console.log("Number is divisible by 3");
+//  x----------------------------------x----------------------------------x
 
-// } else {
-//   console.log("Number is not divisible by 3");
+// ---------------------------Chapter 02-------------------------------
 
-// }
-// Question - 05 ended
 
-// ------------------------------------------------------------------
+// --------------Answer 01-----------------
 
-// Question - 06 Started
-// var num1 = +prompt ("Enter Number 1")
-// var num2 = +prompt ("Enter Number 2")
-// var operator = prompt ("Enter (+ , - , * , / , %)")
+// var username;
 
-// if (operator === "+"){
-//     console.log ("Addition" , num1 + num2);
+// --------------Answer 02-----------------
 
-// }else if (operator === "-"){
-//     console.log ("Subraction" , num1 - num2);
+// var myName = "Muhammad Aseel Ahmed";
 
-// } else if (operator === "*"){
-//     console.log ("Multipy" , num1 * num2);
+// --------------Answer 03-----------------
 
-// } else if (operator === "/"){
-//     console.log ("Divide" , num1 / num2);
+// var message;
+// message = "Hello World";
+// alert(message);
 
-// } else if (operator === "%"){
-//     console.log ("Modulus" , num1 % num2);
+// --------------Answer 04-----------------
 
-// } else {
-//     console.log ("Invalid Operator")
-// }
-// Question - 06 ended
+// var studentName = "Muhammad Aseel Ahmed";
+// var age = "18 years old";
+// var course = "Web Development";
 
-// ------------------------------------------------------------------
+// alert("Student Name: " + studentName);
+// alert("Age: " + age);
+// alert("Course: " + course);
 
-// Question - 07 Started
-// var time = +prompt("Enter What time");
+// --------------Answer 05-----------------
 
-// if (time >= 0000 && time < 1200) {
-//     console.log ("Good Morning");
+// var myMessage = "Welcome to JavaScript Alerts";
+// alert(myMessage);
+// alert(myMessage);
+// alert(myMessage);
 
-// }else if (time >= 1200 && time < 1700){
-//     console.log("Good Afternoon");
+// --------------Answer 06-----------------
 
-// }else if (time >= 1700 && time < 2100){
-//     console.log("Good Evening");
+// var email = "muhammadaseel21@gmail.com";
+// alert("My email address is " + email);
 
-// }else if (time >= 2100 && time <= 2359) {
-//     console.log ("Good Night");
+// --------------Answer 07-----------------
 
-// }else {
-//     console.log ("wrong past");
-// }
-// Question - 07 ended
+// var book = "A smarter way to learn JavaScript";
+// alert(" I am currently learning from the book : " + book);
 
-// -------------------------------------------------------------------
+// --------------Answer 08-----------------
 
-// Question - 08 Started
-// var year = 2032;
+// document.write(" I can write JavaScript in my browser!");
 
-// if (year % 4 == 0){
-//     console.log("This is leap year")
+// --------------Answer 09-----------------
 
-// }else {
-//     console.log("This is not a leap year");
-// }
-// Question - 08 ended
+// var myText = "This is a JavaScript alert and also displayed in the browser!";
+// alert(myText);
+// document.write(myText);
 
-// ------------------------------------------------------------------------------------------------
-// Question - 09 Started
-// var correct_password = ("aseelahmed21");
+//  x----------------------------------x----------------------------------x
 
-// var user = prompt("Enter Password")
 
-// if (user === correct_password){
-//     console.log("Correct Password")
+// ---------------------------Chapter 03-------------------------------
 
-// } else {
-//     console.log("Incorrect Password")
-// }
-// Question - 09 ended
 
-// -------------------------------------------------------------------
-// Question - 10 Started
-// var first_name = prompt("Enter Name");
+// --------------Answer 01-----------------
 
-// if(first_name === "Fahad"){
-//     document.write("Hello Fahad!");
+// var age = 18;
+// alert("I am " + age + " years old");
 
-// }else {
-//     document.write("You are not Fahad")
-// }
-// Question - 10 ended
+// --------------Answer 02-----------------
 
-// ----------------------------------------------------------------
+// var visitCount = 2;
+// alert("You have visited this site " + visitCount + " times");
 
-// Question - 11 Started
-// var greeting;
-// var hour = 20;
+// --------------Answer 03-----------------
 
-// if (hour < 18){
-//     console.log ("Good day");
+// var birthYear = 2006;
+// document.write("My birth year is " + birthYear );
 
-// }else {
-//     console.log ("Good evening ");
+// --------------Answer 04-----------------
 
-// }
-// Question - 11 ended
+// var visitorName = "Ahmed";
+// var productTitle = "Samsung Smart Watch";
+// var quantity = 8;
 
+// document.write(visitorName + " ordered " + quantity + " " + productTitle + "(s) on XYZ watching store.");
 
-// ---------------------------------------------------------------------
 
-// Question - 11 Started
-// var num1 = 20;
-// var num2 = 20;
+//  x----------------------------------x----------------------------------x
 
-// if (num1 < num2){
-//     console.log ("Num2 is greater than Num1: " + num2)
 
+// ---------------------------Chapter 04-------------------------------
 
-// }else if (num1 > num2){
-//     console.log ("Num1 is greater than Num2: " + num1)
 
-// }else {
-//     console.log ("Both are Equal ")
+// --------------Answer 01-----------------
 
-// }
-// Question - 11 ended
+// var name, age, city;
 
+// --------------Answer 02-----------------
 
-// --------------------------------------------------------------
-// // Question - 12 Started
-// var number = 60 - 60;
+// 5 Legal  Variable Names
 
-// if (number > 0){
-//    console.log ("Number is Positive ")
+// var myName;
+// var _age;
+// var $city;
+// var user123;
+// var first_name;
 
-// }else if (number < 0){
-//     console.log ("Number is Negative");
+// 5 Illegal Variable Names
 
-// }else {
-//     console.log ("Numer is Zero")
-// }
-// // Question - 12 ended
+// var 1name;
+// var my-name;
+// var var;
+// var user name;
+// var alert;
 
+// --------------Answer 03-----------------
 
-// ------------------------------------------------------------
-// // Question - 12 Started
-// var current_hour = prompt ("Enter Current Time");
+// document.write("<h1>Rules for naming JS variables</h1>");
 
-// if (current_hour >= "6am" && current_hour <= "9am") {
-//   console.log("Its Break Fast Time");
+// document.write("Variable names can only contain letters, numbers, $ and _. <br> For example: $my_1stVariable <br>");
 
-// } else if (current_hour >= "11am" && current_hour <= "1pm") {
-//   console.log("Time for lanch");
+// document.write("Variables must begin with a letter, $ or _. <br> For example: $name, _name or name <br>");
 
-// } else if (current_hour >= "5pm" && current_hour <= "8pm") {
-//   console.log("It's Dinner Time");
+// document.write("Variable names are case sensitive. <br>");
 
-// }else {
-//     console.log ("Sorry, You'll have to wait")
-// }
-// // Question - 12 ended
+// document.write("Variable names should not be JavaScript keywords.");
 
 
-// ------------------------------------------------------------------------------------------------
-// // Question - 12 Started
-// var text_1 = 20;
-// var text_2 = "Aseel ahmed";
-// var text_3 = true;
-// var text_4;
+//  x----------------------------------x----------------------------------x
 
+// ---------------------------Chapter 05-------------------------------
 
-// console.log("Type of Content is: " + typeof text_1);
-// console.log("Type of Content is: " + typeof text_2);
-// console.log("Type of Content is: " + typeof text_3);
-// console.log("Type of Content is: " + typeof text_4);
-// // Question - 12 ended
+// --------------Answer 01-----------------
 
-
-// ----------------------------------------------------------------
-// // Question - 13 Started
-// var vowel = prompt("Enter only 1 small character");
-
-// if (vowel == "a" || vowel == "e" || vowel == "i" || vowel == "o" || vowel == "u") {
-//     console.log("This is a vowel: " + true);
-
-// } else {
-//     console.log("This is not a vowel: " + false)
-// }
-// // // Question - 13 ended
-
-// ------------------------------------------------------------------
-// // Question - 14 Started
-//   var num1 = 20;
+// var num1 = 21;
 // var num2 = 10;
+// var sum = num1 + num2;
+// document.write("Sum of " + num1 + " and " + num2 + " is " + sum);
 
-// if (num1 !== num2 ){
-//     console.log("The answer is: " + true );
+// --------------Answer 02-----------------
 
-// }else {
-//     console.log("The answer is: " + false);
+// var num1 = 20, num2 = 4;
+// document.write("Subtraction: " + (num1 - num2) + "<br>");
+// document.write("Multiplication: " + (num1 * num2) + "<br>");
+// document.write("Division: " + (num1 / num2) + "<br>");
+// document.write("Modulus: " + (num1 % num2));
+
+// --------------Answer 03-----------------
+
+// var num; 
+// document.write("Value after variable declaration is: " + num + "<br>");
+
+// num = 5; 
+// document.write("Initial value: " + num + "<br>");
+
+// num++; 
+// document.write("Value after increment is: " + num + "<br>");
+
+// num += 7; 
+// document.write("Value after addition is: " + num + "<br>");
+
+// num--; 
+// document.write("Value after decrement is: " + num + "<br>");
+// document.write("The remainder is: " + (num % 3));
+
+// --------------Answer 04-----------------
+
+// var ticketPrice = 600;
+// var totalCost = ticketPrice * 5;
+// document.write("Total cost to buy 5 tickets is " + totalCost + " PKR.");
+
+// --------------Answer 05-----------------
+
+// var num = 21;
+// for (var i = 1; i <= 10; i++) {
+//     document.write(num + " x " + i + " = " + (num * i) + "<br>");
 // }
+
+// --------------Answer 06-----------------
+
+// var celsius = 25;
+// var fahrenheit = (celsius * 9/5) + 32;
+// document.write(celsius + "°C is " + fahrenheit + "°F <br>");
+
+// var fahrenheit2 = 70;
+// var celsius2 = (fahrenheit2 - 32) * 5/9;
+// document.write(fahrenheit2 + "°F is " + celsius2 + "°C");
+
+// --------------Answer 07-----------------
+
+// var priceItem1 = 10000, priceItem2 = 5000;
+// var qtyItem1 = 2, qtyItem2 = 3;
+// var shippingCharges = 500;
+// var totalCost = (priceItem1 * qtyItem1) + (priceItem2 * qtyItem2) + shippingCharges;
+// document.write("Total cost of your order is " + totalCost + " PKR.");
+
+// --------------Answer 08-----------------
+
+// var totalMarks = 500, marksObtained = 420;
+// var percentage = (marksObtained / totalMarks) * 100;
+// document.write("Your percentage is: " + percentage + "%");
+
+// --------------Answer 09-----------------
+
+// var usdToPkr = 104.80, sarToPkr = 28;
+// var totalPkr = (10 * usdToPkr) + (25 * sarToPkr);
+// document.write("Total in PKR: " + totalPkr);
+
+// --------------Answer 10-----------------
+
+// var num = 10;
+// var result = ((num + 5) * 10) / 2;
+// document.write("Final result is: " + result);
+
+// --------------Answer 11-----------------
+
+// var currentYear = 2025, birthYear = 2006;
+// var age1 = currentYear - birthYear;
+// document.write("They are either " + (age1-1) + " or " + age1 + " years old.");
+
+// --------------Answer 12-----------------
+
+// var radius = 7;
+// var circumference = 2 * 3.142 * radius;
+// var area = 3.142 * radius * radius;
+// document.write("Circumference is: " + circumference + "<br>");
+// document.write("Area is: " + area);
+
+// --------------Answer 13-----------------
+
+// var snack = "Chips", currentAge = 20, maxAge = 80, perDay = 2;
+// var totalSnacks = (maxAge - currentAge) * 365 * perDay;
+// document.write("You will need " + totalSnacks + " " + snack + " to last until the age of " + maxAge);
+
+
+//  x----------------------------------x----------------------------------x
+
