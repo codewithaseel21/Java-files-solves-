@@ -270,3 +270,255 @@
 
 //  x----------------------------------x----------------------------------x
 
+
+
+// IF…ELSE & ELSE	IF	STATEMENTS, TESTING	SET	OF	CONDITIONS & SWITCH	STATEMENTS
+
+
+// --------------Answer 01-----------------
+
+// var num = prompt("Enter a number:");
+// if (num % 3 === 0) {
+//     alert("Number is divisible by 3");
+// } else {
+//     alert("Number is not divisible by 3");
+// }
+
+// --------------Answer 02-----------------
+
+// var num = prompt("Enter a number:");
+// if (num % 2 === 0) {
+//     alert("Even Number");
+// } else {
+//     alert("Odd Number");
+// }
+
+// --------------Answer 03-----------------
+
+// var age = prompt("Enter your age:");
+// if (age > 18) {
+//     alert("Old enough");
+// } else {
+//     alert("Too young");
+// }
+
+// --------------Answer 04-----------------
+
+// var myName = "Ahmed";
+// var userName = prompt("Enter your name:");
+// if (userName === myName) {
+//     alert("Hello, " + myName + "! Welcome.");
+// }
+
+// --------------Answer 05-----------------
+
+// var num = prompt("Enter a number:");
+// switch (num % 3) {
+//     case 0:
+//         alert("Number is divisible by 3");
+//         break;
+//     default:
+//         alert("Number is not divisible by 3");
+// }
+
+// --------------Answer 06-----------------
+
+// var char = prompt("Enter a character:");
+
+// if (char >= '0' && char <= '9') {
+//     alert("It is a number");
+// } else if (char >= 'A' && char <= 'Z') {
+//     alert("It is an uppercase letter");
+// } else if (char >= 'a' && char <= 'z') {
+//     alert("It is a lowercase letter");
+// } else {
+//     alert("Invalid input");
+// }
+
+// --------------Answer 07-----------------
+
+// var num1 = parseFloat(prompt("Enter first number:"));
+// var num2 = parseFloat(prompt("Enter second number:"));
+// var operator = prompt("Enter operator (+, -, *, /, %):");
+
+// switch (operator) {
+//     case "+":
+//         alert("Result: " + (num1 + num2));
+//         break;
+//     case "-":
+//         alert("Result: " + (num1 - num2));
+//         break;
+//     case "*":
+//         alert("Result: " + (num1 * num2));
+//         break;
+//     case "/":
+//         alert("Result: " + (num1 / num2));
+//         break;
+//     case "%":
+//         alert("Result: " + (num1 % num2));
+//         break;
+//     default:
+//         alert("Invalid operator");
+// }
+
+// --------------Answer 08-----------------
+
+// var time = prompt("Enter time in 24-hour format (e.g., 1900):");
+// if (time >= 600 && time < 900) {
+//     alert("Breakfast is served");
+// } else if (time >= 1100 && time < 1300) {
+//     alert("Time for lunch");
+// } else if (time >= 1700 && time < 2000) {
+//     alert("It's dinner time");
+// } else {
+//     alert("Sorry, you'll have to wait, or go get a snack.");
+// }
+
+// --------------Answer 09-----------------
+
+// var year = prompt("Enter a year:");
+// if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+//     alert(year + " is a leap year");
+// } else {
+//     alert(year + " is not a leap year");
+// }
+
+// --------------Answer 10-----------------
+
+// var correctPassword = "abc123";
+// var userPassword = prompt("Enter your password:");
+
+// if (!userPassword) {
+//     alert("Please enter your password");
+// } else if (userPassword === correctPassword) {
+//     alert("Correct! The password you entered matches the original password");
+// } else {
+//     alert("Incorrect password");
+// }
+
+// --------------Answer 11-----------------
+
+// var firstName = "aseel";
+// if (firstName === "ahmed") {
+//     document.write("Hello aseel!");
+// } else {
+//     document.write("You are not aseel");
+// }
+
+// --------------Answer 12-----------------
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+//     greeting = "Good day";
+// } else {
+//     greeting = "Good evening";
+// }
+// alert(greeting);
+
+// --------------Answer 13-----------------
+
+// var num1 = prompt("Enter first number:");
+// var num2 = prompt("Enter second number:");
+
+// if (num1 > num2) {
+//     alert(num1 + " is larger");
+// } else if (num1 < num2) {
+//     alert(num2 + " is larger");
+// } else {
+//     alert("Both numbers are equal");
+// }
+
+// --------------Answer 14-----------------
+
+// var num = prompt("Enter a number:");
+// if (num > 0) {
+//     alert("Positive number");
+// } else if (num < 0) {
+//     alert("Negative number");
+// } else {
+//     alert("Zero");
+// }
+
+// --------------Answer 15-----------------
+
+// var hour = prompt("Enter current hour (24-hour format):");
+
+// if (hour >= 6 && hour < 9) {
+//     alert("Breakfast is served");
+// } else if (hour >= 11 && hour < 13) {
+//     alert("Time for lunch");
+// } else if (hour >= 17 && hour < 20) {
+//     alert("It's dinner time");
+// } else {
+//     alert("Sorry, you'll have to wait, or go get a snack.");
+// }
+
+// --------------Answer 16-----------------
+
+// var value = 42; 
+// alert("Type of variable is: " + typeof value);
+
+// --------------Answer 17----------------
+
+// var char = prompt("Enter a character:").toLowerCase();
+// if ("aeiou".includes(char)) {
+//     alert("True, it's a vowel");
+// } else {
+//     alert("False, it's not a vowel");
+// }
+
+// --------------Answer 18-----------------
+
+// alert(10 !== 8); 
+
+// --------------Answer 19-----------------
+
+// var month = prompt("Enter month number (1-12):");
+// switch (parseInt(month)) {
+//     case 1:
+//         alert("January");
+//         break;
+//     case 2:
+//         alert("February");
+//         break;
+//     case 3:
+//         alert("March");
+//         break;
+//     case 4:
+//         alert("April");
+//         break;
+//     case 5:
+//         alert("May");
+//         break;
+//     case 6:
+//         alert("June");
+//         break;
+//     case 7:
+//         alert("July");
+//         break;
+//     case 8:
+//         alert("August");
+//         break;
+//     case 9:
+//         alert("September");
+//         break;
+//     case 10:
+//         alert("October");
+//         break;
+//     case 11:
+//         alert("November");
+//         break;
+//     case 12:
+//         alert("December");
+//         break;
+//     default:
+//         alert("Invalid month number");
+// }
+
+// --------------Answer 20-----------------
+
+// var age = prompt("Enter your age:");
+// var voteable = (age < 18) ? "Too young" : "Old enough";
+// alert(voteable);
+
